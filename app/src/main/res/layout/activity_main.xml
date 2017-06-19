@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textH1"
+        style="@style/H1"
+        android:text="@string/H1_136prig" />
+
+    <ScrollView
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80">
+
+        <TextView
+            android:id="@+id/texttime"
+            style="@style/TextTime"
+            android:layout_gravity="top"
+            android:text="@string/TextTime136prig"
+            android:textSize="30sp" />
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/MyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_vertical|center"
+        android:layout_weight="1"
+        android:checked="true"
+        android:text="@string/work" />
+
+    <LinearLayout
+        style="@style/MyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn114"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/btn114" />
+
+        <Button
+            android:id="@+id/btn157kmr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn157kmr" />
+
+        <Button
+            android:id="@+id/btn136kmr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn136kmr" />
+
+        <Button
+            android:id="@+id/btn136prig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn136prig" />
+
+        <Button
+            android:id="@+id/btn176"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/btn176" />
+
+    </LinearLayout>
+</LinearLayout>

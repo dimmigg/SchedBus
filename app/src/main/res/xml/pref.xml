@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="textH1Size"
+        android:summary="Выбрать размер шрифта заголовка"
+        android:inputType="numberSigned"
+        android:title="Заголовок"
+        android:selectAllOnFocus="true">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:key="textTimeSize"
+        android:summary="Выбрать размер шрифта расписания"
+        android:inputType="numberSigned"
+        android:title="Время"
+        android:selectAllOnFocus="true">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:key="textBtnSize"
+        android:summary="Выбрать размер шрифта кнопок"
+        android:inputType="numberSigned"
+        android:title="Кнопки"
+        android:selectAllOnFocus="true">
+    </EditTextPreference>
+
+</PreferenceScreen>
